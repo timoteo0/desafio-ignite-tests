@@ -38,8 +38,6 @@ describe("Get User Balance", () => {
 
     const result = await getBalanceUseCase.execute({ user_id });
 
-    console.log(result);
-
     expect(result).toHaveProperty("statement");
     expect(result).toHaveProperty("balance");
     expect(result.statement).toHaveLength(1);
