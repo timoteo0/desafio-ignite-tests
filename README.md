@@ -1,6 +1,7 @@
 ## 💻 Projeto
 
 ignite-template-tests-challenge
+testes unitários e integrados
 
 ## 📝 Licença
 
